@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div id="whole">
+        <div id="welcome">
+                <h2>Welcome To Weather App</h2><br><br>
+                <h3>Yeah....Here we Are...<br>This Is Maddy...<br>
+                 Do You Want To Start ?</h3>
+                            <button id="start">Start</button>
+        </div>
+        <div id="main"> 
+            <form id="search-form">
+                <input type="text" id="search-input" autocomplete="off" placeholder="enter the city">
+                <br><button id="sb">search</button>
+            </form>
+            <div id="app-container">
+                <div id="location">
+                    <p>---------</p>
+                </div>
+                <div id="temp">
+                    <img id="temp-icon" src="./Images/sun.svg" alt="alt">
+                    <p><span id="temp-value">---------</span><span id="temp-unit">&#176c</span></p>
+                </div>
+                <div id="climate">
+                     <p>---------</p>       
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/jq/jquery.js"></script>
+  <script src="/script.js"></script>
+</html>
